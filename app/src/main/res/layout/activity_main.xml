@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cc6b20"
+    tools:context="com.gpsinhand.gpslatlong.MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="Location Tracking"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#6c2f05"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="Check My Position"
+        android:textSize="20dp"
+        android:textAllCaps="false"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#3a201f1f"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="13dp">
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/lng"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#33a91e"
+        android:textSize="17dp"
+        android:id="@+id/sharelocation"
+        android:textColor="#ffffff"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Start  Share  My  Position"/>
+
+</LinearLayout>
